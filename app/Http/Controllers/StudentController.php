@@ -35,11 +35,11 @@ class StudentController extends Controller
         // $Student = Student::where('age','26')->get();
         // $Student = Student::where('name','shreyash')->where('age','>=','20')->get();
         // replace this
-        // $Student = Student::where([['name','shreyash'],['age','>=','20']])->get();
+        $Student = Student::where([['name','shreyash'],['age','>=','20']])->get();
         
 
 
-        // return $Student;
+        return $Student;
     }
 
     //USE BLADE TEMPLATES
